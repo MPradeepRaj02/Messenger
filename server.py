@@ -8,7 +8,7 @@ from time import gmtime, strftime
 from random import randint
 
 SERVER = 'localhost'  # localhost
-PORT = 15011
+PORT = 1501
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
 
