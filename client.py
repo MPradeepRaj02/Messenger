@@ -66,7 +66,7 @@ def ClientStream():
 def SendPic():
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect((SERVER, PORT))
-    image = 'pic.jpg'
+    image = 'socketpic.jpg'
     file = open(image, 'rb')
     size = len(file.read())
     client.sendall('imgsize %s' %size)
@@ -85,3 +85,16 @@ def SendPic():
 
 connection()
 ClientStream()
+
+
+
+
+
+
+
+
+
+
+
+
+
